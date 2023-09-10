@@ -11,4 +11,10 @@ The goal is to create an interactive tool that allows users to input movie revie
 Sentiment analysis plays a pivotal role in understanding public opinion, customer feedback, and user sentiments in various domains, including the film industry.
 
 By providing a user-friendly interface for sentiment analysis, this project showcases the potential for NLP applications and offers a 
+practical solution for analyzing movie sentiments.
+
+# Summary
+| Code      | Name        | Published Article |  Deployed App |
+|-----------|-------------|:-------------:|------:|
+| Capstone Project|The Sentiment Analysis Project| [Article]()| [Deployed App]() |
 
