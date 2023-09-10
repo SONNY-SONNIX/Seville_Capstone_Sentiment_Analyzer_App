@@ -18,3 +18,30 @@ practical solution for analyzing movie sentiments.
 |-----------|-------------|:-------------:|------:|
 | Capstone Project|The Sentiment Analysis Project| [Article]()| [Deployed App]() |
 
+Gradio_App
+
+Building Machine Learning Applications on huggingface With Gradio ✨
+
+
+## 📖 Table of Contents
+
++ Description
+
++ Dataset Overview
+
++ Project Setup
+
++ Building the Sentiment Analysis App
+
++ Running the App
+
++ Project Structure
+
++  License
+
++ Resources
+
++ Conclusion
+  
+
+
