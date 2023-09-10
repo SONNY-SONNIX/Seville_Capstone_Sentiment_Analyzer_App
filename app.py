@@ -8,3 +8,14 @@ model = AutoModelForSequenceClassification.from_pretrained(model_name)
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 sentiment = pipeline("sentiment-analysis", model=model, tokenizer=tokenizer)
+
+
+
+
+
+
+
+
+
+iface = gr.Interface(fn=get_sentiment,title="Sentimental Analysis", inputs="text",outputs="text")
+iface.launch(inline=True)
