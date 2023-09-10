@@ -62,6 +62,43 @@ It serves as a benchmark for sentiment classification, with labels indicating wh
 
 Neutral sentiment is also considered as a class.
 
+## Installation and Setup ⚙️🔧 
+
+To get started, follow these installation steps:
+
+# set up the environment on Windows by running the following code.
+
+Make sure you have Python installed on your system.
+
+- Clone this repository to your local machine.
+  
+  git clone <repository-url>
+
+  - Navigate to the project directory.
+
+  cd <project-directory>
+
+- Set up a virtual environment (optional but recommended).
+
+python -m venv myenv
+
+- Activate the virtual environment.
+
+### On Windows:
+
+- myenv\Scripts\activate
+
+  ### On macOS and Linux:
+
+- source myenv/bin/activate
+
+### Install the required packages.
+
+- pip install -r requirements.txt
+
+   ### The Two commands are of the same structure 
+
+
 
 
 
