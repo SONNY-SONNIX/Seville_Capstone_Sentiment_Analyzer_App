@@ -54,4 +54,14 @@ Sentiment analysis, also known as opinion mining, is a natural language processi
 It uses a previously pre-trained hugging text classification model(roBERTa-case).
 The project showcases a simple sentiment analysis app for movie reviews.
 
+### Dataset Overview 
+
+The dataset used for this project contains movie reviews along with binary sentiment polarity labels. 
+
+It serves as a benchmark for sentiment classification, with labels indicating whether the sentiment is positive or negative. 
+
+Neutral sentiment is also considered as a class.
+
+
+
 
