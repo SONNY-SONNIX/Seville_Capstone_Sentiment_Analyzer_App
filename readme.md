@@ -42,6 +42,16 @@ Building Machine Learning Applications on huggingface With Gradio ✨
 + Resources
 
 + Conclusion
-  
+
+  ##  Description 🚀📊
+
+Welcome to Deploying an Interactive Sentiment Analyzer with Gradio and Transformers on Hugging Face! 
+
+This project demonstrates how to build a movie sentiment analysis app using Gradio and Hugging Face's Transformers library. 
+
+Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) task that involves determining the sentiment expressed in a piece of text. 
+
+It uses a previously pre-trained hugging text classification model(roBERTa-case).
+The project showcases a simple sentiment analysis app for movie reviews.
 
 
