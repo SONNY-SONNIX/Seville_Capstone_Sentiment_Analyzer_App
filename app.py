@@ -24,5 +24,5 @@ def get_sentiment(input_text):
     return f"Sentiment: {sentiment_label.capitalize()}, Score: {sentiment_score:.2f}"
 
 
-iface = gr.Interface(fn=get_sentiment,title="Sentimental Analysis", inputs="text",outputs="text")
+iface = gr.Interface(fn=get_sentiment,title="Sentiment Analyzer App", inputs="text",outputs="text")
 iface.launch(inline=True)
