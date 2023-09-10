@@ -16,7 +16,7 @@ practical solution for analyzing movie sentiments.
 # Summary
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------:|------:|
-| Capstone Project|The Sentiment Analysis Project| [Article]()| [Deployed App](https://huggingface.co/spaces/Sonny4Sonnix/Seville_Capstone_Sentiment_Analyzer_App) |
+| Capstone Project|The Sentiment Analysis Project| [Article](https://medium.com/p/f1025b3610a0/revert/e9e638fbe692/1105)| [Deployed App](https://huggingface.co/spaces/Sonny4Sonnix/Seville_Capstone_Sentiment_Analyzer_App) |
 
 Gradio_App
 
