@@ -92,11 +92,59 @@ python -m venv myenv
 
 - source myenv/bin/activate
 
+  
+
 ### Install the required packages.
 
 - pip install -r requirements.txt
 
-   ### The Two commands are of the same structure 
+   ### The Two commands are of the same structure
+
+1. Activate the python environment 
+
+2. Upgrade pip to its current version 
+
+3. Install the requirements located in requirements.txt: You should be at the root of your env
+
+## 🚀 Usage
+
+### To see how the app works, follow these instructions: 
+
+1. After setting up environment, activating the environment, and installing requirements, type
+
+gradio run <python_script> # in the terminal
+
+This will open the App in your browser
+
+### Project Setup
+Before running the app, make sure you have installed the required 
+dependencies listed in the requirements.txt file:
+
+* transformers
+
+* gradio
+
+* torch
+
+### You can install these dependencies using pip:
+
+ pip install -r requirements.txt
+
+### Building the Sentiment Analysis App
+
+The app is built using Gradio and Hugging Face's Transformers library. 
+
+The Python script app.py contains the app logic. 
+
+Here's an overview of the key steps:
+
+1. Load a pre-trained sentiment analysis model from Hugging Face's model hub using AutoModelForSequenceClassification and AutoTokenizer. Replace model_name with the name of the model you want to use.
+
+2. Define a function get_sentiment that takes the input text (movie review) and returns the predicted sentiment label (positive, negative, or neutral).
+
+3. Create a Gradio interface using gr.Interface. Specify that the function expects text input and produces text output.
+
+ 4. Launch the Gradio interface with iface.launch(inline=True).
 
 
 
