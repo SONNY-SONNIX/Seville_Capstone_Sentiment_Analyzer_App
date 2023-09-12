@@ -181,9 +181,13 @@ Huggingface makes deployment hassle-free. Feel free to customize and extend the 
 This project is developed and maintained by:
 
 Sonny Agorvor-Otchie - otchie.sonny@gmail.com 
+
 Authur Kwaku Gregory - Gregoryarthur98@gmail.com
-David Kwesi Biney -  gyesidavid@gmail.com / gyesibiney@github.com
+
+David Gyesi Biney -  gyesidavid@gmail.com / gyesibiney@github.com
+
 Richard Fiagbeti -  doctaooool@gmail.com
+
 Pamela Quartey - pcnkquartey@gmail.com
 
 feel free to reach out to any of the authors  with any questions or feedback!
