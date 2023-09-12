@@ -182,14 +182,14 @@ This project is developed and maintained by:
 Sonny Agorvor-Otchie - otchie.sonny@gmail.com 
 Authur Kwaku Gregory - Gregoryarthur98@gmail.com
 David Kwesi Biney -  gyesidavid@gmail.com / gyesibiney@github.com
-Richard Fiagbeti - 
+Richard Fiagbeti -  doctaooool@gmail.com
 Pamela Quartey - pcnkquartey@gmail.com
 
 feel free to reach out to any of the authors  with any questions or feedback!
 
 ## ✨ Acknowledgments
 
-We will like to express my gratitude to The Azubi Africa team for their valuable contributions to this project.
+We would like to express our gratitude to The Azubi Africa team for their valuable contributions to this project.
 
 ## 📞 Contact
 
