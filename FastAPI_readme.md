@@ -23,16 +23,17 @@ FastAPI
 
 ### Description 🚀📊
 
-Building Machine Learning Applications on huggingface With FastAPI✨
+Building Machine Learning Applications on huggingface With FastAPI and Docker✨
 
 Welcome to Deploying an Interactive Sentiment Analyzer with FastAPI and Transformers on Hugging Face! 
 
-This project demonstrates how to build a movie sentiment analysis app using FastAPI and Hugging Face's Transformers library. 
+This project demonstrates how to build an interactive sentiment analysis app using FastAPI and Hugging Face's Transformers library. 
 
 Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) task that involves determining the sentiment expressed in a piece of text. 
 
-It uses a previously pre-trained hugging text classification model(roBERTa-case).
-The project showcases a simple sentiment analysis app for movie reviews.
+It uses a previously pre-trained huggingface text classification model(roBERTa-case).
+The project showcases a simple sentiment analysis app for text.
+
 ### Installation and Setup ⚙️
 
 #### Getting Started
@@ -55,33 +56,31 @@ To run this application, follow these steps:
 
 #### Copy code
 
-*docker build -t sepsis-prediction-app*
+*docker build -t sentiment-movie-review-fastapi-2*
 
 Run the Docker Container: Once the image is built, run the Docker container using the following command:
 
 
 #### Copy code
 
-*docker run -p 7860:7860 sepsis-prediction-app*
+*docker run -p 7860:7860 sentiment-movie-review-fastapi-2*
 
 ### Project Setup
 
 It's important to note, we'll need to create a directory structure for our project:
 
-sepsis_prediction_app/
+sentiment-movie-review-fastapi-2/
 
 ├── Dockerfile
 
 ├── main.py
-
-├── XGB.joblib
 
 ├── requirements.txt
 
 
 #### Access the App: 
 
-Open your web browser and navigate to http://localhost:7860 or https://sonny4sonnix-sepsis-prediction-app-using-fastapi-1.hf.space/docs.
+Open your web browser and navigate to https://[](localhost:7860) or https://[](https://gyesibiney-sentiment-movie-review-fastapi-2.hf.space/docs).
 
 You'll be greeted with a welcome message!
 
@@ -93,35 +92,24 @@ You'll be greeted with a welcome message!
 
 - Method: GET
 
-- Description: Welcome message to the Sepsis Prediction API.
+- Description: text.
 
-- Response: {"message": "Welcome to the Sepsis Prediction using FastAPI"}
+- Response: {"message": "Input text for sentiment analysis"}
 
 ### Prediction Endpoint 🔮
 
-Use the /predict/docs endpoint to predict sepsis for a patient. 
+Uses the response body to classify the sentiment as 1(positive) or 0(negative). 
 
 Send a POST request with the following input parameters:
 
-- prg: Plasma glucose
-  
-- pl: Blood Work Result-1 (mu U/ml)
-  
-- pr: Blood Pressure (mm Hg)
-  
-- sk: Blood Work Result-2 (mm)
-  
-- ts: Blood Work Result-3 (mu U/ml)
-  
-- m11: Body mass index (weight in kg/(height in m)^2)
-  
-- bd2: Blood Work Result-4 (mu U/ml)
-  
-- age: Patient's age (years)
-
+- text: text
+ 
 #### Response: 
 
-{"prediction": "Patient does not have sepsis"} or {"prediction": "Patient has sepsis"}
+{
+  "sentiment": 0,
+  "score": 0.9965981841087341
+}
 
 ### Technologies Used 🛠️
 
@@ -129,24 +117,20 @@ Send a POST request with the following input parameters:
   
 - Docker: A platform for developing, shipping, and running applications in containers.
   
-- XGBoost: A machine learning library for gradient boosting.
+- Transformers: A machine learning model library on huggingface.
   
 ### Project Structure 📂
 
 - *main.py:* Contains the FastAPI application code and endpoint definitions.
 
-- *XGB.joblib:* The pickled machine learning model used for sepsis prediction.
-
 - *Dockerfile:* Specifies the Docker image configuration.
 
 - *requirements.txt:* Lists the Python dependencies required for the app.
 
-- *Other files and directories:* Application files and directories.
-
 
 ### Conclusion and Next Steps 🏁
 
-This FastAPI application demonstrates how to predict sepsis using a machine learning model. 
+This FastAPI application demonstrates how to classify a text as a positive or negative sentiment using a machine learning model. 
 
 Dockerization makes deployment hassle-free. Feel free to customize and extend the app for your own projects!
 
@@ -156,9 +140,9 @@ This project is licensed under the MIT License.
 
 #### Conclusion 🎉
 
-Congratulations! You've successfully set up the Sepsis Prediction FastAPI application using Docker.
+Congratulations! You've successfully set up an interactive Sentiment Analyzer on FastAPI application using Docker.
 
-This app provides a simple and efficient way to predict sepsis using patient data.
+This app provides a simple and efficient way to analyze and classify a text as a positive or negative sentiment.
 
 #### 👥 Authors
 
