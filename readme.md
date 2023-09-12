@@ -1,4 +1,4 @@
-  ## Deploying an Interactive Sentiment Analyzer with Gradio and Transformers on Hugging Face
+  ## Deploying an Interactive Sentiment Analyzer with Gradio,Streamlit, FastAPI, and Transformers on Hugging Face
   
  ### Introduction
  
@@ -17,6 +17,18 @@ practical solution for analyzing movie sentiments.
 | Code      | Name        | Published Article |  Deployed App |
 |-----------|-------------|:-------------:|------:|
 | Capstone Project|The Sentiment Analysis Project| [Article] (https://medium.com/@otchie.sonny/deploying-an-interactive-sentiment-analyzer-with-gradio-and-transformers-on-hugging-face-f1025b3610a0)| [Deployed App](https://huggingface.co/spaces/Sonny4Sonnix/Seville_Capstone_Sentiment_Analyzer_App) |
+
+# Summary
+| Code      | Name        | Published Article |  Deployed App |
+|-----------|-------------|:-------------:|------:|
+| Capstone Project|The Sentiment Analysis Project| [Article] (https://medium.com/@otchie.sonny/deploying-an-interactive-sentiment-analyzer-with-gradio-and-transformers-on-hugging-face-f1025b3610a0)| [Deployed App](https://huggingface.co/spaces/Sonny4Sonnix/Seville_Capstone_Sentiment_Analyzer_App) |
+
+# Summary
+| Code      | Name        | Published Article |  Deployed App |
+|-----------|-------------|:-------------:|------:|
+| Capstone Project|The Sentiment Analysis Project| [Article] (https://medium.com/@otchie.sonny/deploying-an-interactive-sentiment-analyzer-with-gradio-and-transformers-on-hugging-face-f1025b3610a0)| [Deployed App](https://huggingface.co/spaces/Sonny4Sonnix/Seville_Capstone_Sentiment_Analyzer_App) |
+
+
 
 Gradio_App
 
